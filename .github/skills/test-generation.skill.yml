@@ -1,0 +1,18 @@
+name: test-generation
+description: Generate comprehensive unit tests for Python functions and classes
+triggers:
+  - "write tests"
+  - "generate tests"
+  - "create unit tests"
+  - "add tests"
+actions:
+  - create pytest test functions
+  - include happy path tests
+  - include edge cases and error scenarios
+  - add proper assertions
+  - use fixtures for test data
+  - include docstring tests if applicable
+examples:
+  - "Write tests for the TodoService.create_todo method"
+  - "Generate unit tests for user authentication"
+  - "Create tests for the API endpoints"

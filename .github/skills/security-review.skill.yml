@@ -1,0 +1,22 @@
+name: security-review
+description: Perform security analysis and vulnerability assessment
+triggers:
+  - "review security"
+  - "check security"
+  - "security audit"
+  - "vulnerability check"
+actions:
+  - check input validation and sanitization
+  - check for SQL injection vulnerabilities
+  - check for XSS (Cross-Site Scripting) risks
+  - check authentication and authorization
+  - check for hardcoded secrets or credentials
+  - check CORS configuration
+  - check for insecure direct object references
+  - check error handling that might leak sensitive information
+  - check for CSRF (Cross-Site Request Forgery) protection
+  - review dependency vulnerabilities
+examples:
+  - "Review security of the login endpoint"
+  - "Check for vulnerabilities in user input handling"
+  - "Audit the API for security issues"
